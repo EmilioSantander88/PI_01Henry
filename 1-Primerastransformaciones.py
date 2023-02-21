@@ -251,8 +251,10 @@ scores_score_mean =  scores.drop_duplicates(subset=['show_id'])
 scores_score_mean = scores_score_mean[['show_id','score_mean']]
 
 df_merge = pd.merge(peliculasyseries, scores_score_mean, on='show_id', how='left')
+df_merge2 = pd.merge(peliculasyseries,scores,on='show_id',how='left')
 
 df_merge.to_csv('./peliculasyseriesconscore.csv')
+df_merge2.to_parquet('./archivofinal.parquet')
 
 peliculasyseries.info()
 
