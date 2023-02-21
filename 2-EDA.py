@@ -9,8 +9,9 @@ Original file is located at
 
 import pandas as pd
 import numpy as np
+import fastparquet
 
-df =  pd.read_csv('./archivofinal.csv')
+df =  pd.read_parquet('./archivofinal.parquet')
 
 df.isnull().sum()
 
