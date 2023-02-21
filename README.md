@@ -22,8 +22,11 @@ Lo primero que realize (archivo 1-Primerastransformaciones.py) fueron las transf
 Luego de generar las transformaciones procedi a generar 4 consultas con fastApi a traves de funciones de Python, las consultas fueron:
 
    ->get_max_duration: Película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN.
+   
    ->get_score_count: Cantidad de películas por plataforma con un puntaje mayor a XX en determinado año.
+   
    ->get_count_platform: Cantidad de películas por plataforma con filtro de PLATAFORMA.
+   
    ->get_actor: Actor que más se repite según plataforma y año.
    
 Una vez creadas las consultas en fastApi, cree una app en Space para poder deployarla y que este disponible publicamente. Mi aplicacion se llama "apiiii" y se puede acceder a traves del siguente link:
@@ -46,4 +49,8 @@ Finalmente les dejo un link con un video corto que arme para poder mostrar y exp
 
 --> https://www.youtube.com/watch?v=rmecBVjDySg&ab_channel=andresanto89
 
+
+Tambien agrego el link de drive donde estan los archivos .parquet que son muy pesados para subir a github:
+
+--> https://drive.google.com/drive/folders/1MPUpx4Px3uooHpezdVI1c0SHmAAkijIH?usp=sharing
 
