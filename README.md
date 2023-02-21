@@ -44,4 +44,6 @@ VIDEO:
 
 Finalmente les dejo un link con un video corto que arme para poder mostrar y explicar todo lo que realize en este proyecto:
 
+--> https://www.youtube.com/watch?v=rmecBVjDySg&ab_channel=andresanto89
+
 
